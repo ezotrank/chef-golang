@@ -1,7 +1,10 @@
 default["go"]["version"] = "1.0.3"
+default['go']['checksum'] = 'ad583ff91bd2955fc48d24001785587e3c3b5ce5c09e4971a37028db4c3f6a98'
 default["go"]["platform"] = "amd64"
 default["go"]["filename"] = "go#{node["go"]["version"]}.#{node["os"]}-#{node["go"]["platform"]}.tar.gz"
 default['go']['url'] = "http://go.googlecode.com/files/#{node["go"]["filename"]}"
 default['go']['install_dir'] = "/usr/local"
 default['go']['gopath'] = "/opt/go"
 default['go']['gobin'] = "/opt/go/bin"
+default['go']['user'] = 'root'
+default['go']['shell_d'] = '/etc/profile.d'

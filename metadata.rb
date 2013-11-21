@@ -12,6 +12,7 @@ recipe "golang::requirements", "Installs requirements."
 
 supports 'debian'
 supports 'ubuntu'
+supports 'centos'
 
 depends 'git'
 
